@@ -1,0 +1,35 @@
+/* Write your CSS here */
+*{
+    font-family: "roboto";
+}
+.event-item-main-container{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.event-image{
+    height: 200px;
+    width: 380px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.image-active{
+    border:1px solid #2dd4bf;
+}
+.event-name{
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.event-location{
+    font-size: 13px;
+    color: #ffffff;
+}
